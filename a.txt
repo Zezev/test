@@ -1,1 +1,12 @@
 hi
+# AWS setting
+## EC2 Instance
+### Bigdata1
+* key file : MyKeyPair.pem
+* public IP : 54.159.82.54
+
+***
+cd Downloads
+chmod 400 Downloads/MyKeyPair.pem
+ssh i Downloads/MyKeyPair.pem ubuntu@54.159.82.54
+***
